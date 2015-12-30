@@ -11,3 +11,37 @@ img, video, audio, iframe, table, form {
 .row {
   margin-bottom: 20px;
 }
+
+
+/*//////////// CAROUSEL STYLES /////////*/
+
+#carousel-example-generic .item img {
+  height: auto;
+}
+
+.carousel-caption p {
+  display: none;
+}
+
+@media only screen and (min-width: 768px)
+{
+  #carousel-example-generic .item img {
+  height: 384px;
+  }
+}
+
+@media only screen and (min-width: 992px)
+{
+  
+  #carousel-example-generic .item img {
+  height: 496px;  
+  }
+} 
+
+@media only screen and (min-width: 1200px)
+{
+  .carousel-caption p {
+    height: auto;
+    display: block;
+  }
+}
